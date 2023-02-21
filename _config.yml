@@ -3,3 +3,16 @@ baseurl: "" # the subpath of your site, e.g. /blog
 title: "Pool Demo" # the name of your site, e.g. ACME Corp.
 author: "Dan Carroll"
 copyright: "2023"
+
+# added from Github Pages Docs
+# Configuring Jekyll in your GitHub Pages site
+lsi: false
+safe: true
+source: 
+incremental: false
+highlighter: rouge
+gist:
+  noscript: false
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
